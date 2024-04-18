@@ -1,0 +1,8 @@
+<ul class="list-group">
+	@for (post of posts; track post.id) {
+		<li class="list-group-item">{{ post.author }}</li> 
+		<li class="list-group-item">{{ post.content }}</li> 
+		<li class="list-group-item">{{ post.createdDate }}</li> 
+		<li class="list-group-item">{{ post.createdTime }}</li> 
+	}
+</ul>
